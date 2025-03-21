@@ -1,0 +1,1 @@
+<center><img src="<?php echo IMG;?>404.gif" style="height:450px;"></center>

@@ -1,0 +1,132 @@
+@media (min-width: 992px) {
+    .typo-line {
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .typo-line .category {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 70px;
+}
+
+.places-buttons .btn {
+    margin-bottom: 30px
+}
+
+.space-70 {
+    height: 70px;
+    display: block;
+}
+
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.tim-typo .tim-note {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+
+.tim-row {
+    padding-top: 50px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
+
+.custom_error, label.error{
+	color:#f44336!important;
+}
+
+.dropdown a:hover label{
+  color:#fff;
+}
+
+.dropdown a:hover .check{
+ border:1px solid #fff;
+}
+
+.loading-image {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index: 10;
+  width:200px;
+}
+.loader
+{
+    display: none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    text-align: center;
+    margin-top: -100px;
+    z-index: 2;
+}
+.in .nav li a{
+background-color: rgba(200, 200, 200, 0.2);
+}
+
+.read_notification{
+  opacity: 0.5;
+}
+.read_notification:hover{
+  opacity: 1;
+}
+.text-default{
+ color:#333!important;
+}
+.anychart-credits-logo, .anychart-credits-text{
+  display:none;
+}
+
+.privacy_toggle{
+   margin-top:8px;
+   margin-right:25px;
+}
+.card-actions .privacy_toggle{
+   margin-top:18px;
+   margin-right:0px;
+}
+.card-product .card-image img{
+    height:150px;
+}
+ul{
+   list-style:none;
+}
+.list_container .btn, .list_container{
+    padding-left: 0px!important;
+    padding-right: 10px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.upload_task_image .progress, .upload_task_file .progress, .upload_project_document .progress{
+        height:20px!important;
+    }
