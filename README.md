@@ -1,17 +1,20 @@
 This is a PHP-based application built with CodeIgniter 3.1.6, a lightweight and powerful MVC framework. CodeIgniter allows developers to build dynamic websites quickly and easily.
 
-1. Introduction
+Introduction
+
 This is a web application built using CodeIgniter 3.1.6. The framework follows the MVC (Model-View-Controller) design pattern and is built to be simple, fast, and flexible. This version of CodeIgniter is a great choice for developers who need a full-featured web application without too much complexity.
 
-2. Requirements
+Requirements
+
 Before you can set up and run the project, make sure your server environment meets the following requirements:
 
-i) PHP 5.6 or higher (recommended PHP 7.x)
-ii) Apache, Nginx, or another compatible web server
-iii) MySQL or any other relational database
-iv) Composer (optional, if you're using Composer for dependencies)
+1. PHP 5.6 or higher (recommended PHP 7.x)
+2. Apache, Nginx, or another compatible web server
+3. MySQL or any other relational database
+4. Composer (optional, if you're using Composer for dependencies)
 
-3. Installation
+Installation
+
 Follow these steps to install and configure the CodeIgniter application:
 
 1. Clone the Repository
@@ -299,7 +302,9 @@ $data = [
     'refresh_token' => $refresh_token
 ];
 // Make the API request to refresh the token
+
 API Endpoints
+
 Once authenticated, you can call various Xero API endpoints to interact with the accounting data. Some common endpoints include:
 
 1. Get All Invoices
@@ -332,6 +337,7 @@ $reports = xero_api_call('GET', '/api.xro/2.0/Reports/ProfitAndLoss');
 You can customize and extend these API calls as needed based on the Xero API documentation.
 
 Usage
+
 Once the integration is set up, your application can perform a variety of tasks:
 
 Authenticate with Xero: Redirect users to Xero for OAuth2 authorization.
@@ -341,6 +347,7 @@ Reports: Fetch various financial reports such as Profit & Loss, Balance Sheet, e
 For more advanced integration, refer to the official Xero API documentation.
 
 Testing
+
 Unit Tests
 If you want to test your API calls or OAuth2 functionality, consider writing unit tests using a testing framework like PHPUnit.
 
@@ -350,6 +357,7 @@ composer require --dev phpunit/phpunit
 You can create test cases that mock Xero API calls or test OAuth2 workflows.
 
 Troubleshooting
+
 Invalid Token: If you encounter an error about an invalid token, try refreshing the token using the refresh token you stored previously.
 API Rate Limits: Xero has API rate limits. If you exceed these, you may encounter errors. Be sure to handle rate-limiting in your code.
 
@@ -362,6 +370,7 @@ How to Contribute:
 5. Create a pull request.
 
 License
+
 This project is licensed under the MIT License.
 
 
