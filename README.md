@@ -6,10 +6,10 @@ This is a web application built using CodeIgniter 3.1.6. The framework follows t
 2. Requirements
 Before you can set up and run the project, make sure your server environment meets the following requirements:
 
-1. PHP 5.6 or higher (recommended PHP 7.x)
-2. Apache, Nginx, or another compatible web server
-3. MySQL or any other relational database
-4. Composer (optional, if you're using Composer for dependencies)
+i) PHP 5.6 or higher (recommended PHP 7.x)
+ii) Apache, Nginx, or another compatible web server
+iii) MySQL or any other relational database
+iv) Composer (optional, if you're using Composer for dependencies)
 
 3. Installation
 Follow these steps to install and configure the CodeIgniter application:
